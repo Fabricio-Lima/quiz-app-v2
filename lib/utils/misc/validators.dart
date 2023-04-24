@@ -2,6 +2,7 @@ String? validateName(String? name) {
   if (name == null || name.isEmpty) {
     return 'name required!';
   }
+  return null;
 }
 
 String? validateEmail(String? email) {
